@@ -1,0 +1,15 @@
+<!ENTITY bettergmail2.options.title "Better Gmail 2">
+<!ENTITY bettergmail2.label.moreinfo "Click on the script homepage for more info:" >
+<!ENTITY bettergmail2.label.options "Enable Better Gmail 2 features:" >
+
+<!ENTITY bettergmail2.tab.label.general "General" >
+<!ENTITY bettergmail2.tab.label.messages "Messages" >
+<!ENTITY bettergmail2.tab.label.skins "Skins" >
+<!ENTITY bettergmail2.tab.label.compose "Compose" >
+<!ENTITY bettergmail2.tab.label.sidebar "Sidebar" >
+
+<!ENTITY bettergmail2.tab.label.help "Help" >
+
+
+
+<!ENTITY bettergmail2.label.refreshreminder "Refresh Gmail to apply your changes." >

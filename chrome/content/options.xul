@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://betterdouban/skin/classic/options.css" type="text/css"?>
+<!DOCTYPE page SYSTEM "chrome://betterdouban/locale/options.dtd">
+
+
+<dialog buttons="accept, cancel" id="betterdouban-options-dialog" ondialogaccept="betterdouban_saveOptions()" onload="betterdouban_initializeOptions(true)" title="&betterdouban.options.title;" 
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://betterdouban/content/common/preferences.js"/> 
+<script type="application/x-javascript" src="chrome://betterdouban/content/common/defaults.js"/> 
+<script type="application/x-javascript" src="chrome://betterdouban/content/script-compiler.js"/>
+<script type="application/x-javascript" src="chrome://betterdouban/content/options.js"/>
+
+
+
+<tabbox id="tablist" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<tabs>
+<tab label="&betterdouban.tab.label.general;" />
+<tab label="&betterdouban.tab.label.messages;" />
+<tab label="&betterdouban.tab.label.skins;" />
+<tab label="&betterdouban.tab.label.compose;" />
+<tab label="&betterdouban.tab.label.sidebar;" />
+
+<tab label="&betterdouban.tab.label.help;" />
+
+</tabs>
+<tabpanels>
+<tabpanel id="tb_general" >
+		<groupbox id="betterdouban-gbox-general" flex="1">
+		</groupbox>
+</tabpanel>
+<tabpanel id="tb_messages" >
+		<groupbox id="betterdouban-gbox-messages" flex="1">
+		</groupbox>
+</tabpanel>
+<tabpanel id="tb_skins" >
+		<groupbox id="betterdouban-gbox-skins" flex="1">
+<radiogroup id="betterdouban-gbox-skins-radiogroup"></radiogroup>		</groupbox>
+</tabpanel>
+<tabpanel id="tb_compose" >
+		<groupbox id="betterdouban-gbox-compose" flex="1">
+		</groupbox>
+</tabpanel>
+<tabpanel id="tb_sidebar" >
+		<groupbox id="betterdouban-gbox-sidebar" flex="1">
+		</groupbox>
+</tabpanel>
+
+
+<tabpanel id="tb_help" >
+	<iframe flex="1" id="script-listing" src="chrome://betterdouban/content/help.html" />
+</tabpanel>
+
+</tabpanels>
+
+<vbox id="vb_reminder"><hbox><caption label="&betterdouban.label.refreshreminder;" /></hbox></vbox>
+
+</tabbox>
+
+</dialog>

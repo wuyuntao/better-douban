@@ -1,0 +1,6 @@
+content	betterdouban chrome/content/
+
+overlay	chrome://browser/content/browser.xul	chrome://betterdouban/content/script-compiler-overlay.xul
+
+locale	betterdouban	en-US	chrome/locale/en-US/
+skin	betterdouban	classic/1.0	chrome/skin/

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:name="Better Douban"
+                   em:id="betterdouban@luliban.com"
+                   em:version="0.1"
+                   em:description="Enhances Douban with a compilation of user scripts and styles.   All scripts copyright their original authors. Click on the script homepage in the Help tab for more information."
+                   em:creator="Wu Yuntao (All user scripts copyright their original authors)"
+                   em:optionsURL="chrome://betterdouban/content/options.xul"
+                   em:iconURL="chrome://betterdouban/skin/classic/icon.png" 
+                   em:homepageURL="http://www.douban.com/group/topic/4279114/">
+
+
+    <em:contributor>Add Row Highlights by stasnikiforov (http://userstyles.org/styles/4725)</em:contributor>
+    <em:contributor>Air Skin by Bogdan Piloca (http://userstyles.org/styles/1833)</em:contributor>
+    <em:contributor>Attachment Icons by Moktoipas (http://userstyles.org/style/show/226)</em:contributor>
+    <em:contributor>Bottom Post in Reply (Plain Text only) by Henrik N. and Rob Wilkerson (http://userscripts.org/scripts/show/14256)</em:contributor>
+    <em:contributor>Filter Assistant by Ming (Amos) Zhang (http://userscripts.org/scripts/show/7997)</em:contributor>
+    <em:contributor>Folders4Gmail by Arend v. Reinersdorff (http://www.arend-von-reinersdorff.com/folders4gmail/)</em:contributor>
+    <em:contributor>Force Encrypted Connection (https) by Mark Pilgrim (http://userscripts.org/scripts/show/1404)</em:contributor>
+    <em:contributor>Gmail Blue by Pascal (http://pascal.herbert.googlepages.com/bluegmailskin)</em:contributor>
+    <em:contributor>Grays and Blues by CyberCPA (http://userstyles.org/styles/6209)</em:contributor>
+    <em:contributor>Hide Chat by Diego Barros (http://userstyles.org/styles/7897)</em:contributor>
+    <em:contributor>Hide Invites Box by stasnikiforov (http://userstyles.org/styles/4724)</em:contributor>
+    <em:contributor>Hide Spam Count by Arend v. Reinersdorff (http://userscripts.org/scripts/show/22660)</em:contributor>
+    <em:contributor>Inbox Count First by Jon Ramsey, Gina Trapani (http://userscripts.org/scripts/show/10253)</em:contributor>
+    <em:contributor>Macros (? for help) by Mihai Parparita (http://blog.persistent.info/2007/11/macros-for-new-version-of-gmail.html)</em:contributor>
+    <em:contributor>Macros Modified (h for help) by Mihai Parparita, modified by Brent Nef (http://userscripts.org/scripts/show/14189)</em:contributor>
+    <em:contributor>Gmail Redesigned by Evgueni Naverniouk (http://www.globexdesigns.com/gmail)</em:contributor>
+    <em:contributor>Show Agenda by Jeff Killingsworth (http://userscripts.org/scripts/show/24877)</em:contributor>
+    <em:contributor>Show BCC Automatically by Gina Trapani (http://lifehacker.com/393844/)</em:contributor>
+    <em:contributor>Show BCC (Ctrl+Shift+B) by Gina Trapani (http://lifehacker.com/393844/)</em:contributor>
+    <em:contributor>Show CC Automatically by Gina Trapani (http://lifehacker.com/393844/)</em:contributor>
+    <em:contributor>Show CC (Ctrl+Shift+C) by Gina Trapani (http://lifehacker.com/393844/)</em:contributor>
+    <em:contributor>Show Message Details by Michael Lieberman (http://userscripts.org/scripts/show/13700)</em:contributor>
+
+
+    <!--<em:contributor>Greasemonkey Multi-Script Compiler by Gina Trapani (http://www.ginatrapani.org/)</em:contributor>-->
+    <em:contributor>Greasemonkey Compiler by Anthony Lieuallen (http://www.arantius.com/)</em:contributor>
+
+    <em:targetApplication RDF:resource="rdf:#$djS7s"/>
+ 
+  </RDF:Description>
+   <RDF:Description RDF:about="rdf:#$djS7s"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="2.0"
+                   em:maxVersion="3.0.*" />
+
+</RDF:RDF>

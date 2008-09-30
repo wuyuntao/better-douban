@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay SYSTEM "chrome://betterdouban/locale/options.dtd">
+<overlay xmlns='http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul'>
+<script type='application/x-javascript' src='chrome://betterdouban/content/xmlhttprequester.js'></script>
+<script type='application/x-javascript' src='chrome://betterdouban/content/prefman.js'></script>
+<script type='application/x-javascript' src='chrome://betterdouban/content/common/preferences.js'></script>
+<script type='application/x-javascript' src='chrome://betterdouban/content/common/defaults.js'></script>
+<script type='application/x-javascript' src='chrome://betterdouban/content/script-compiler.js'></script>
+
+ <!-- <menupopup id="menu_ToolsPopup">
+    <menuitem id="betterdouban_options" label="&betterdouban.options.title;..." 
+              oncommand="betterdouban_gmCompiler.configure();" insertbefore="menu_preferences"/>
+  </menupopup> -->
+
+</overlay>
