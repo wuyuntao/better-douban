@@ -1,15 +1,13 @@
-<!ENTITY bettergmail2.options.title "Better Gmail 2">
-<!ENTITY bettergmail2.label.moreinfo "Click on the script homepage for more info:" >
-<!ENTITY bettergmail2.label.options "Enable Better Gmail 2 features:" >
+<!ENTITY betterdouban.options.title "Better Douban">
+<!ENTITY betterdouban.label.moreinfo "Click on the script homepage for more info:" >
+<!ENTITY betterdouban.label.options "Enable Better Douban features:" >
 
-<!ENTITY bettergmail2.tab.label.general "General" >
-<!ENTITY bettergmail2.tab.label.messages "Messages" >
-<!ENTITY bettergmail2.tab.label.skins "Skins" >
-<!ENTITY bettergmail2.tab.label.compose "Compose" >
-<!ENTITY bettergmail2.tab.label.sidebar "Sidebar" >
+<!ENTITY betterdouban.tab.label.general "General" >
+<!ENTITY betterdouban.tab.label.subject "Subject" >
+<!ENTITY betterdouban.tab.label.group "Group" >
+<!ENTITY betterdouban.tab.label.contact "Contact" >
+<!ENTITY betterdouban.tab.label.skins "Skins" >
 
-<!ENTITY bettergmail2.tab.label.help "Help" >
+<!ENTITY betterdouban.tab.label.help "Help" >
 
-
-
-<!ENTITY bettergmail2.label.refreshreminder "Refresh Gmail to apply your changes." >
+<!ENTITY betterdouban.label.refreshreminder "Refresh Douban to apply your changes." >
