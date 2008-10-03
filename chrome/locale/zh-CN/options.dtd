@@ -1,0 +1,13 @@
+<!ENTITY betterdouban.options.title "豆瓣优化">
+<!ENTITY betterdouban.label.moreinfo "更多信息请访问脚本主页: " >
+<!ENTITY betterdouban.label.options "启用豆瓣优化功能:" >
+
+<!ENTITY betterdouban.tab.label.general "常规" >
+<!ENTITY betterdouban.tab.label.subject "书影音" >
+<!ENTITY betterdouban.tab.label.group "小组" >
+<!ENTITY betterdouban.tab.label.contact "广播" >
+<!ENTITY betterdouban.tab.label.skins "皮肤" >
+
+<!ENTITY betterdouban.tab.label.help "帮助" >
+
+<!ENTITY betterdouban.label.refreshreminder "更改设置后，请刷新豆瓣页面。" >

@@ -1,9 +1,8 @@
 var betterdouban_bundle = Components.classes["@mozilla.org/intl/stringbundle;1"].getService(Components.interfaces.nsIStringBundleService);
 var betterdouban_usLabels = betterdouban_bundle.createBundle("chrome://betterdouban/locale/userscript.properties");
 
-
 var betterdouban_tabs = {
-    GENERAL:0 ,    MESSAGES:1 ,    SKINS:2 ,    COMPOSE:3 ,    SIDEBAR:4
+    GENERAL: 0, SUBJECT: 1, GROUP: 2, CONTACT: 3, SKINS:4
 }
 
 
@@ -38,30 +37,30 @@ function betterdouban_makeNewUserScript(id, author, homepage, enabled_by_default
 
 function betterdouban_makeNewUserScriptWithConflicts(id, author, homepage, enabled_by_default, tab, conflicts) {
     return new betterdouban_userScript(id,
-                 betterdouban_getOrElseSet(id, enabled_by_default),
-                 betterdouban_usLabels.GetStringFromName(id+"_title"),
-                author,
-                homepage,
-                id+".user.js",
-                 betterdouban_usLabels.GetStringFromName(id+"_desc"),
-                enabled_by_default,
-                tab,
-                conflicts,
-                null);
+        betterdouban_getOrElseSet(id, enabled_by_default),
+        betterdouban_usLabels.GetStringFromName(id+"_title"),
+        author,
+        homepage,
+        id+".user.js",
+        betterdouban_usLabels.GetStringFromName(id+"_desc"),
+        enabled_by_default,
+        tab,
+        conflicts,
+        null);
 }
 
 function betterdouban_makeNewSkin(id, author, homepage ) {
     return new betterdouban_userScript(id,
-                 betterdouban_getOrElseSet(id, false),
-                 betterdouban_usLabels.GetStringFromName(id+"_title"),
-                author,
-                homepage,
-                id+".user.js",
-                 betterdouban_usLabels.GetStringFromName(id+"_desc"),
-                false,
-                 betterdouban_tabs.SKINS,
-                null,
-                null);
+        betterdouban_getOrElseSet(id, false),
+        betterdouban_usLabels.GetStringFromName(id+"_title"),
+        author,
+        homepage,
+        id+".user.js",
+        betterdouban_usLabels.GetStringFromName(id+"_desc"),
+        false,
+        betterdouban_tabs.SKINS,
+        null,
+        null);
 }
 
 
@@ -76,9 +75,9 @@ function betterdouban_getOrElseSet(script, defaultValue) {
 }
 
 var betterdouban_scripts = new Array(
-    new betterdouban_makeNewUserScript('slidingnavbar',
-        'Null Pointer',
-        'http://userscripts.org/scripts/show/20681',
+    new betterdouban_makeNewUserScript('example',
+        'Wu Yuntao',
+        'http://blog.luliban.com/',
         true,
         betterdouban_tabs.GENERAL),
 
@@ -108,12 +107,12 @@ function betterdouban_getEnabledScripts( betterdouban_scripts) {
      betterdouban_setBooleanPreference("betterdouban.loaded",  true);
 }
 
- betterdouban_getEnabledScripts( betterdouban_scripts);
+betterdouban_getEnabledScripts(betterdouban_scripts);
 
 function betterdouban_isScriptApplicable(script, href) {
     var result = false;
     switch (script) {
-            case 'slidingnavbar':  result = ( /http:\/\/www\.douban\.com\/.*/.test(href) || !/http:\/\/www\.douban\.com\/plaza\/.*/.test(href) || !/http:\/\/www\.douban\.com\/service\/apidoc\/.*/.test(href) ) && true; break;
+            case 'example':  result = ( /http:\/\/www\.douban\.com\/.*/.test(href) ) && true; break;
         }
     return result;
 }
